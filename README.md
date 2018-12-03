@@ -10,11 +10,15 @@ ruby 2.3.7p456
 SQLite version 3.19.3 2017-06-27 16:48:08
 
 ### System dependencies
-Run bundle install to install gems 
+Run bundle install  
+Run rake db:migrate 
 
 ### Configuration
-Enter Sandbox credentials into the application.yml
+Enter Sandbox credentials into the config/application.yml file 
 -merchant id, public key, and private key
+
+These keys can be found in your sandbox account.
+If you don't have an account visit here https://www.braintreepayments.com/sandbox
 
 ### Run the code
 Run rails server 
@@ -22,8 +26,3 @@ visit http://localhost:3000/
 
 
 
-Run bundle install to install gems.
-Run rake to install gems.
-Add your merchant id, public key, and private key from Braintree's Sandbox account.
-Run rails s to start the app.
-Visit http://localhost:3000/ in your browser.
