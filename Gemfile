@@ -24,6 +24,10 @@ gem 'braintree', '~> 2.87'
 
 gem 'dotenv', '~> 2.0'
 
+gem 'figaro'
+
+gem 'simple_form'
+
 group :development, :test do
   # Use sqlite in development and test for ease of setup
   gem 'sqlite3'

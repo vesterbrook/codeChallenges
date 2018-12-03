@@ -13,15 +13,15 @@
       "value": "sandbox"
     },
     "BT_MERCHANT_ID": {
-      "description": "Your Braintree Merchant ID",
+      "description": "",
       "required": true
     },
     "BT_PUBLIC_KEY": {
-      "description": "Your Braintree Public Key",
+      "description": "",
       "required": true
     },
     "BT_PRIVATE_KEY": {
-      "description": "Your Braintree Private Key",
+      "description": "",
       "required": true
     }
   }

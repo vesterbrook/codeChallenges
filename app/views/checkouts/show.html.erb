@@ -2,10 +2,6 @@
   <div class="response container">
     <div class="content">
       <% if @result %>
-        <div class="icon">
-          <img src=<%= asset_path("#{@result[:icon]}.svg") %> alt="">
-        </div>
-
         <h1><%= @result[:header] %></h1>
         <section>
           <p><%= @result[:message] %></p>
@@ -16,23 +12,11 @@
       </section>
 
       <% end %>
-
-      <section>
-        <a class="button primary back" href="/checkouts/new">
-          <span>Test Another Transaction</span>
-        </a>
-      </section>
     </div>
   </div>
 </div>
 
 <aside class="drawer dark">
-  <header>
-    <div class="content compact">
-      <a href="https://developers.braintreepayments.com" class="braintree" target="_blank">Braintree</a>
-      <h3>API Response</h3>
-    </div>
-  </header>
 
   <article class="content compact">
     <section>
@@ -147,14 +131,5 @@
         </table>
       </section>
     <% end %>
-
-    <section>
-      <p class="center small">Integrate with the Braintree SDK for a secure and seamless checkout</p>
-    </section>
-    <section>
-      <a class="button secondary full" href="https://developers.braintreepayments.com/guides/drop-in" target="_blank">
-        <span>See the Docs</span>
-      </a>
-    </section>
   </article>
 </aside>
